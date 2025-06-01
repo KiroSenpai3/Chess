@@ -1,0 +1,14 @@
+Frontend (React)
+↓
+Render Board + Pieces
+Handle user input
+Show moves
+Send move to backend → Socket.IO
+Receive opponent move ← Socket.IO
+
+Backend (Node.js + Socket.IO + chess.js)
+↓
+Validate moves
+Track game state per room
+Sync between players
+Broadcast state updates
